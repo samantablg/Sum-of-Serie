@@ -6,7 +6,7 @@ const seriesSum = (value) => {
     }
   
     else if ( value == 1) {
-      return value.toString();
+      return value.toFixed(2).toString();
     }
   
     else {
